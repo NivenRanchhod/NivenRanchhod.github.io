@@ -1664,10 +1664,8 @@
 #speed-70-down:checked ~ #temp-40-up:checked ~ #temp-control:checked ~ #wheel-21:checked ~ .showroom .model-plaid-plus:after,
 #speed-70-up:checked ~ #temp-40-down:checked ~ #temp-control:checked ~ #wheel-21:checked ~ .showroom .model-plaid-plus:after,
 #speed-70-up:checked ~ #temp-40-up:checked ~ #temp-control:checked ~ #wheel-21:checked ~ .showroom .model-plaid-plus:after { content:'271'; }
-</style>
 
 /* CONFIGURATOR - RANGE CALCULATOR - SPEED */
-<style type="text/css">
 .speed-up, .temp-up { background-image:url('https://mcusercontent.com/7dbd32559277c32f17bb2d1c6/images/e4eac9a1-8565-47da-97fa-cc23d67e6e42.png'); background-repeat:no-repeat; background-position:0; width:22px; height:16px; display:block; margin-left:5px; }
 .speed-down, .temp-down { background-image:url('https://mcusercontent.com/7dbd32559277c32f17bb2d1c6/images/65cd1916-9ab9-44a8-ba64-983de86abe12.png'); background-repeat:no-repeat; background-position:0; width:22px; height:16px; display:block; margin-left:5px; }
 .speed-up:hover, .temp-up:hover { -webkit-animation:bounce-up 1.5s infinite; animation:bounce-up 1.5s infinite; }
@@ -1756,7 +1754,7 @@
 #temp-40-up:checked ~ .showroom .temp-top, #temp--10-down:checked ~ .showroom .temp-bottom { opacity:0.4!important; height:16px!important; }
 
 /* TEMP CONTROL */
-#temp-40-up:checked ~ #temp-control:checked ~ .showroom .temp-control-label:before, { content:'40'; } 
+#temp-40-up:checked ~ #temp-control:checked ~ .showroom .temp-control-label:before { content:'40'; } 
 #temp-30-up:checked ~ .showroom .temp-counter:before { content:'30'; } 
 #temp-20-up:checked ~ .showroom .temp-counter:before { content:'20'; }  
 #temp-10-up:checked ~ .showroom .temp-counter:before { content:'10'; } 

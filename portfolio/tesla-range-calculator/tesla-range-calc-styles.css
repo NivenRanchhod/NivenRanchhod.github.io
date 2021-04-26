@@ -21,7 +21,6 @@
 .plaid { margin:0 60px; }
 
 .showroom-angles { position:relative; z-index:0; padding-top:35px; }
-.title-wrapper { position:absolute; top:-20px; z-index:0; }
 .showroom-angle { position:relative; z-index:1; }
 
 .range-calc-bg { max-height:0; opacity:0; position:relative; top:0; z-index:-1; }
@@ -1666,8 +1665,8 @@
 #speed-70-up:checked ~ #temp-40-up:checked ~ #temp-control:checked ~ #wheel-21:checked ~ .showroom .model-plaid-plus:after { content:'271'; }
 
 /* CONFIGURATOR - RANGE CALCULATOR - SPEED */
-.speed-up, .temp-up { background-image:url('https://mcusercontent.com/7dbd32559277c32f17bb2d1c6/images/e4eac9a1-8565-47da-97fa-cc23d67e6e42.png'); background-repeat:no-repeat; background-position:0; width:22px; height:16px; display:block; margin-left:5px; }
-.speed-down, .temp-down { background-image:url('https://mcusercontent.com/7dbd32559277c32f17bb2d1c6/images/65cd1916-9ab9-44a8-ba64-983de86abe12.png'); background-repeat:no-repeat; background-position:0; width:22px; height:16px; display:block; margin-left:5px; }
+.speed-up, .temp-up { background-image:url('images/up.png'); background-repeat:no-repeat; background-position:0; width:22px; height:16px; display:block; margin-left:5px; }
+.speed-down, .temp-down { background-image:url('images/down.png'); background-repeat:no-repeat; background-position:0; width:22px; height:16px; display:block; margin-left:5px; }
 .speed-up:hover, .temp-up:hover { -webkit-animation:bounce-up 1.5s infinite; animation:bounce-up 1.5s infinite; }
 .speed-down:hover, .temp-down:hover { -webkit-animation:bounce-down 1.5s infinite; animation:bounce-down 1.5s infinite; }
 .speed-top:hover, .temp-top:hover, .speed-bottom:hover, .temp-bottom:hover { -webkit-animation:none!important; animation:none!important; }
@@ -1828,16 +1827,16 @@
 #temp-0-down:checked ~ #temp-control:checked ~ .showroom .heat-on-wrapper, 
 #temp--10-down:checked ~ #temp-control:checked ~ .showroom .heat-on-wrapper { display:block!important; } 
 
-.temp-control-bg { background-image:url('https://mcusercontent.com/7dbd32559277c32f17bb2d1c6/images/1ed81af1-36f9-4ecf-8323-6da45637beba.png'); background-repeat:no-repeat; background-position:0; background-size:100px 100px; }
+.temp-control-bg { background-image:url('images/temp-control-off.png'); background-repeat:no-repeat; background-position:0; background-size:100px 100px; }
 #temp-20-up:checked ~ #temp-control:checked ~ .showroom .temp-control-bg, 
 #temp-30-up:checked ~ #temp-control:checked ~ .showroom .temp-control-bg,
 #temp-40-up:checked ~ #temp-control:checked ~ .showroom .temp-control-bg,
 #temp-20-down:checked ~ #temp-control:checked ~ .showroom .temp-control-bg, 
-#temp-30-down:checked ~ #temp-control:checked ~ .showroom .temp-control-bg { background-image:url('https://mcusercontent.com/7dbd32559277c32f17bb2d1c6/images/e8157ff8-5a2f-4d84-8f43-84a6f2903431.png')!important; }
+#temp-30-down:checked ~ #temp-control:checked ~ .showroom .temp-control-bg { background-image:url('images/temp-control-ac.png')!important; }
 #temp-10-up:checked ~ #temp-control:checked ~ .showroom .temp-control-bg, 
 #temp-0-up:checked ~ #temp-control:checked ~ .showroom .temp-control-bg, 
 #temp-10-down:checked ~ #temp-control:checked ~ .showroom .temp-control-bg, 
 #temp-0-down:checked ~ #temp-control:checked ~ .showroom .temp-control-bg, 
-#temp--10-down:checked ~ #temp-control:checked ~ .showroom .temp-control-bg { background-image:url('https://mcusercontent.com/7dbd32559277c32f17bb2d1c6/images/5c22ac91-c91a-4bd4-a2a7-a74481635ca4.png')!important; }
+#temp--10-down:checked ~ #temp-control:checked ~ .showroom .temp-control-bg { background-image:url('images/temp-control-heat.png')!important; }
 
 

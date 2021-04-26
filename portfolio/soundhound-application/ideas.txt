@@ -1,0 +1,9 @@
+Blog & video ideas:
+  Email quirks/bugs & how to fix them
+  Moving from old school table based layouts to the fluid hybrid method
+  Interactivity for beginners
+  Email basics:
+      Two col responsive techniques (aligned tables / th / fluid divs)
+      Outlook font fallbacks
+      Outlook max width fixes
+      Outlook retina image fixes

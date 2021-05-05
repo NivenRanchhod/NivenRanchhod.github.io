@@ -86,8 +86,9 @@ html {
       background-image: url("../images/logo.png");
       background-size: cover;
 
-      img {
-        width: 100%;
+      a {
+        display: block;
+        height: 58px;
       }
       &:hover {
         cursor: pointer;
@@ -597,6 +598,7 @@ html {
           margin: 0 20px 0px;
           text-align: center;
           display: flex;
+          border-radius: 10px;
 
           img {
             width: 100%;
@@ -743,6 +745,7 @@ html {
             margin: 0 20px 0px;
             text-align: center;
             display: flex;
+            border-radius: 10px;
 
             img {
               width: 100%;
@@ -817,7 +820,7 @@ html {
             }
 
             &:hover {
-              box-shadow: 0 5px 25px rgba($primary, 0.1);
+              box-shadow: 0 5px 25px rgba(#fff, 0.1);
             }
           }
         }
@@ -1093,6 +1096,135 @@ html {
         p {
           font-size: 1.7rem;
           line-height: 2.5rem;
+        }
+
+        .button {
+          background: #fff;
+          padding: 12px 15px;
+          font-size: 1.5rem;
+          font-weight: 600;
+          font-family: $Poppins;
+          border-radius: 50px;
+          text-decoration: none;
+          color: $primary;
+          box-shadow: 0 4px 25px rgba($primary, 0.15);
+          display: flex;
+          align-items: center;
+          flex: 0 0 120px;
+          margin: 30px auto 20px;
+          max-width: 110px;
+          position: relative;
+
+          &.website {
+            max-width: 130px;
+          }
+
+          &:after {
+            content: ">";
+            position: relative;
+            right: -10px;
+            top: 1px;
+            font-size: 0;
+            transition: 0.3s;
+            line-height: 2.2rem;
+            font-weight: 500;
+          }
+
+          &:hover {
+            background: $primary;
+            color: #fff;
+
+            &:after {
+              font-size: 2.2rem;
+            }
+
+            i {
+              font-size: 0;
+            }
+          }
+
+          i {
+            margin-right: 5px;
+          }
+          @media only screen and (max-width: 400px) {
+            top: 70px;
+          }
+        }
+
+        .preview {
+          padding: 50px 0;
+          max-width: 700px;
+          margin: 0 auto;
+          position: relative;
+          background: #fff;
+
+          .desktop-preview {
+            z-index: 2;
+            position: relative;
+            top: 0;
+            left: 0;
+
+            img {
+              width: 100%;
+              max-width: 700px;
+
+              &.light {
+                position: relative;
+                z-index: 2;
+              }
+            }
+          }
+          .mobile-preview {
+            z-index: 2;
+            position: absolute;
+            top: 300px;
+            right: 0;
+
+            img {
+              width: 100%;
+              max-width: 200px;
+
+              &.light {
+                position: relative;
+                z-index: 2;
+              }
+              &.dark {
+                position: absolute;
+                z-index: 1;
+                top: 40px;
+                left: -40px;
+
+                @media only screen and (max-width: 600px) {
+                  top: 30px;
+                  left: -20px;
+                }
+
+                @media only screen and (max-width: 480px) {
+                  left: 0;
+                }
+              }
+              @media only screen and (max-width: 600px) {
+                width: 90%;
+              }
+              @media only screen and (max-width: 480px) {
+                width: 70%;
+              }
+            }
+            @media only screen and (max-width: 600px) {
+              top: 40%;
+              right: 0px;
+            }
+            @media only screen and (max-width: 480px) {
+              right: -20px;
+            }
+            @media only screen and (max-width: 400px) {
+              top: 35%;
+            }
+          }
+
+          @media only screen and (max-width: 400px) {
+            padding: 50px 0 80px 0;
+          }
         }
       }
     }

@@ -1,0 +1,16 @@
+Blog & video ideas:
+  Email quirks/bugs & how to fix them
+  Moving from old school table based layouts to the fluid hybrid method
+  Interactivity for beginners
+  Circle background elements (refer to Caption.Ed template)
+  Email basics:
+      Two col responsive techniques (aligned tables / th / fluid divs)
+      Outlook font fallbacks
+      Outlook max width fixes
+      Outlook retina image fixes
+
+
+
+Dev examples:
+  Toggle button - Use radio buttons to switch between, utilising transitions to shift the toggle smoothly.
+  *Look for other 'different' examples and easy solutions.

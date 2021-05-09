@@ -21,6 +21,7 @@
 .plaid { margin:0 60px; }
 
 .showroom-angles { position:relative; z-index:0; padding-top:35px; }
+.title-wrapper { position:absolute; top:-20px; z-index:0; }
 .showroom-angle { position:relative; z-index:1; }
 
 .range-calc-bg { max-height:0; opacity:0; position:relative; top:0; z-index:-1; }

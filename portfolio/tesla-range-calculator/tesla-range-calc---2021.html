@@ -296,6 +296,9 @@
 		/* TECH */
 		.tech-check:checked ~ .fallback, #MessageViewBody .tech-check:checked ~ .tech { display:none!important; width:0!important; height:0!important; max-height:0!important; line-height:0!important; opacity:0!important; overflow:hidden!important; font-size:0!important; }
 		.tech-check:checked ~ .tech, #MessageViewBody .tech-check:checked ~ .fallback { display:block!important; width:100%!important; height:auto!important; max-height:none!important; line-height:100%!important; opacity:1!important; overflow:hidden!important; font-size:inherit!important; max-width:none!important; visibility:visible!important; }
+		
+		.& .tech-check:checked ~ .& .tech { display:none!important; width:0!important; height:0!important; max-height:0!important; line-height:0!important; opacity:0!important; overflow:hidden!important; font-size:0!important; }
+		.& .tech-check:checked ~ .& .fallback { display:block!important; width:100%!important; height:auto!important; max-height:none!important; line-height:100%!important; opacity:1!important; overflow:hidden!important; font-size:inherit!important; max-width:none!important; visibility:visible!important; }
 	</style>
 	
 	<!-- MQs -->
@@ -364,7 +367,7 @@
 		}
 	</style>
 	
-	<link href="https://nivenranchhod.github.io/portfolio/tesla-range-calculator/tesla-range-calc-styles.css" rel="stylesheet" type="text/css">
+	<link href="tesla-range-calc-styles.css" rel="stylesheet" type="text/css">
 	<title>TESLA - Interactive Configurator & Range Calculator</title>
 </head>
 <body id="body" class="go-dark-bg" style="margin:0; padding:0; background-color:#FFFFFF;">
@@ -1197,7 +1200,7 @@
 
 							<!-- FALLBACK -->
 							<div class="fallback" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; line-height:25px; color:#ff0000; text-align:center; padding:20px 0;">
-								<p style="margin:0 0 20px 0;">No Webkit support ...</p>
+								<p style="margin:0 0 20px 0;">Interactive forms not supported...</p>
 								
 								<img alt="" border="0" src="images/fallback.jpg" width="600" style="width:600px; max-width:100%; display:inline-block;" />
 							</div>

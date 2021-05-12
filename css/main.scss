@@ -45,8 +45,9 @@ html {
   body {
     background: $primary;
     background: linear-gradient(145deg, $primary 0%, $secondary 100%);
-    // padding: 20px 0 0 0;
-    padding: 0;
+    padding: 20px 0 0 0;
+    // alert padding
+    // padding: 0;
     font-size: 16px;
     max-width: 1900px;
     margin: 0 auto;
@@ -58,6 +59,7 @@ html {
     background: $link;
     padding: 10px;
     margin-bottom: 20px;
+    display: none;
 
     i {
       font-weight: 600;
@@ -600,14 +602,32 @@ html {
           display: flex;
           border-radius: 10px;
 
+          a {
+            display: flex;
+            width: 100%;
+          }
+
           img {
             width: 100%;
+            height: max-content;
           }
 
           h4 {
             margin: 10px 0 5px 0;
             flex: 0 0 100%;
             display: block;
+            height: 50px;
+            color: $heading-colour;
+
+            a {
+              color: $heading-colour;
+              text-decoration: none;
+              display: block;
+
+              &:hover {
+                color: $primary;
+              }
+            }
           }
 
           p {
@@ -625,7 +645,7 @@ html {
 
           .button {
             background: #fff;
-            padding: 12px 15px;
+            padding: 0 15px;
             font-size: 1.5rem;
             font-weight: 600;
             font-family: $Poppins;
@@ -637,6 +657,7 @@ html {
             align-items: center;
             flex: 0 0 120px;
             margin: 10px auto 0;
+            height: 47px;
 
             &:after {
               content: ">";
@@ -680,6 +701,29 @@ html {
       text-align: center;
       background: #fff;
       padding: 40px 0 50px 0;
+
+      .coming-soon {
+        background: $link;
+        width: 150vw;
+        padding: 40px 0;
+        transform: translateX(-50%) rotate(10deg) !important;
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        color: #fff;
+        font-size: 3rem;
+        z-index: 10;
+        font-weight: 900;
+        box-shadow: 0 3px 5px rgba($heading-colour, 0.3);
+
+        @media only screen and (max-width: 900px) {
+          transform: translateX(-50%) rotate(30deg) !important;
+          top: 30%;
+        }
+        @media only screen and (max-width: 650px) {
+          top: 20%;
+        }
+      }
 
       .inner {
         background: $primary;
@@ -728,6 +772,14 @@ html {
           margin: 0 auto;
           position: relative;
           z-index: 1;
+
+          a {
+            color: #fff;
+
+            &:hover {
+              color: $link;
+            }
+          }
         }
 
         .cards {
@@ -747,6 +799,11 @@ html {
             display: flex;
             border-radius: 10px;
 
+            a {
+              display: flex;
+              width: 100%;
+            }
+
             img {
               width: 100%;
               height: max-content;
@@ -758,6 +815,17 @@ html {
               display: block;
               color: #fff;
               height: 50px;
+
+              a {
+                color: #fff;
+                text-decoration: none;
+                display: block;
+
+                &:hover {
+                  // color: $heading-colour;
+                  cursor: auto;
+                }
+              }
             }
 
             p {
@@ -801,18 +869,18 @@ html {
                 font-weight: 500;
               }
 
-              &:hover {
-                background: $primary;
-                color: #fff;
+              // &:hover {
+              //   background: $primary;
+              //   color: #fff;
 
-                &:after {
-                  font-size: 2.2rem;
-                }
+              //   &:after {
+              //     font-size: 2.2rem;
+              //   }
 
-                i {
-                  font-size: 0;
-                }
-              }
+              //   i {
+              //     font-size: 0;
+              //   }
+              // }
 
               i {
                 margin-right: 5px;

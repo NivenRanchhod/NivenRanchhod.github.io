@@ -1,0 +1,1169 @@
+<!doctype html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+<base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+    table {
+        border-collapse:collapse !important;
+        mso-table-lspace:0pt!important;
+        mso-table-rspace:0pt!important;
+    }
+    h1,h2,h3,h4,h5,h6,p,a,span,td,strong,li {
+        font-family:Arial,Helvetica,Verdana,sans-serif !important;
+    }
+    </style>
+    <![endif]-->
+	  
+	<style type="text/css">
+		/* devanagari */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+		  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+		  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+		  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		}
+		/* devanagari */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 500;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+		  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 500;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+		  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 500;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+		  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		}
+		/* devanagari */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 600;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+		  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 600;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+		  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 600;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+		  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		}
+		/* devanagari */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format('woff2');
+		  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');
+		  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+		  font-family: 'Poppins';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+		  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		}
+	</style>
+	
+	<style type="text/css">
+        body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+	    table, td{ mso-table-lspace:0pt; mso-table-rspace:0pt; }
+	    img{ -ms-interpolation-mode:bicubic; }
+        
+        img { border:0; height:auto; line-height:100%; outline:none; text-decoration:none; }
+        table, table td { border-collapse:collapse!important; }
+        body { height:100%!important; margin:0!important; padding:0!important; width:100%!important; }
+    
+        a[x-apple-data-detectors=true]{ color:inherit !important;text-decoration:none !important; font-size:inherit!important; font-family:inherit!important; font-weight:inherit!important; line-height:inherit!important; }
+        u + #body a { color:inherit; text-decoration:none; font-size:inherit; font-family:inherit; font-weight:inherit; line-height:inherit; }
+        #MessageViewBody { color:inherit; text-decoration:none; font-size:inherit; font-family:inherit; font-weight:inherit; line-height:inherit; }
+		
+		/* TECH */
+		.tech-check:checked ~ .fallback, 
+		#MessageViewBody .tech-check:checked ~ .tech { display:none!important; width:0!important; height:0!important; max-height:0!important; line-height:0!important; opacity:0!important; overflow:hidden!important; font-size:0!important; }
+		.tech-check:checked ~ .tech,  
+		#MessageViewBody .tech-check:checked ~ .fallback { display:block!important; width:100%!important; height:auto!important; max-height:none!important; line-height:100%!important; opacity:1!important; overflow:hidden!important; font-size:inherit!important; max-width:none!important; visibility:visible!important; }
+		
+		.& .tech-check:checked ~ .& .tech { display:none!important; width:0!important; height:0!important; max-height:0!important; line-height:0!important; opacity:0!important; overflow:hidden!important; font-size:0!important; }
+		.& .tech-check:checked ~ .& .fallback { display:block!important; width:100%!important; height:auto!important; max-height:none!important; line-height:100%!important; opacity:1!important; overflow:hidden!important; font-size:inherit!important; max-width:none!important; visibility:visible!important; }
+		
+		html, body { background:#8e2de2; background-color:#8e2de2; }
+		.& .body { background-color:#8e2de2; }
+		
+		.ReadMsgBody { width:100%; }
+		.ExternalClass { width:100%; }
+		* { -webkit-text-size-adjust:none; }
+		a:link, a:visited { color:#193152; }
+		.whiteLinks a:link,	.whiteLinks a:visited { color:#ffffff!important; }
+		table, table td {border-collapse:collapse;}
+		a[href^=tel]{ color:inherit; text-decoration:none; }
+		@media screen and (max-width: 480px) {
+		  u ~ div { min-width: 90vw !important; }
+		}
+	</style>
+	
+	<style id="hover">
+		.logo { transition:none!important; }
+		.logo:hover { background-image:url('images/logo-hover.png')!important; cursor:pointer; animation:shake 0.5s; animation-iteration-count:infinite; }
+		.social, .button { transition:all 0.3s ease-out; }
+		.social:hover { border-radius:100px; background-color:rgba(255,255,255,0.2); border-color:rgba(255,255,255,0.2); }
+		.button:hover { background:#4a00e0!important; }
+		#acc-1:checked:hover ~* .acc-1-wrapper .acc-icon, 
+		#acc-2:checked:hover ~* .acc-2-wrapper .acc-icon, 
+		#acc-3:checked:hover ~* .acc-3-wrapper .acc-icon, 
+		#acc-4:checked:hover ~* .acc-4-wrapper .acc-icon { transform:rotate(135deg); } 
+		label:hover .acc-icon { transform:rotate(90deg); }
+	</style>
+	
+	<style id="keyframes">
+		@keyframes shake {
+		  0% {transform: translate(1px, 1px) rotate(0deg);}
+		  10% {transform: translate(-1px, -2px) rotate(-1deg);}
+		  20% {transform: translate(-3px, 0px) rotate(1deg);}
+		  30% {transform: translate(3px, 2px) rotate(0deg);}
+		  40% {transform: translate(1px, -1px) rotate(1deg);}
+		  50% {transform: translate(-1px, 2px) rotate(-1deg);}
+		  60% {transform: translate(-3px, 1px) rotate(0deg);}
+		  70% {transform: translate(3px, 1px) rotate(-1deg);}
+		  80% {transform: translate(-1px, -1px) rotate(1deg);}
+		  90% {transform: translate(1px, 2px) rotate(0deg);}
+		  100% {transform: translate(1px, -2px) rotate(-1deg);}
+		}
+	</style>
+	
+	<style id="interactive-accordion">
+		* { transition:all 0.4s linear; }
+		.show { display:block!important; width:100%!important; height:auto!important; max-height:none!important; line-height:100%!important; opacity:1!important; overflow:visible!important; font-size:inherit!important; max-width:none!important; visibility:visible!important; }
+		.on-load { -webkit-animation:fade-in 0.3s linear; animation:fade-in 0.3s linear; }
+		
+		.mobile-panel { transition:all 0.3s ease-out; right:-30px; top:-20px!important; }
+		label:hover { cursor:pointer; }
+		#hamburger:checked ~ .mobile-panel { right:-30px!important; }
+		
+		.acc-panel { max-height:0; overflow:hidden; transition:max-height 1s ease-in-out!important; }
+		#acc-1:checked ~* .acc-1-panel, 
+		#acc-2:checked ~* .acc-2-panel, 
+		#acc-3:checked ~* .acc-3-panel, 
+		#acc-4:checked ~* .acc-4-panel { max-height:3000px!important; }
+		#acc-1:checked ~* .acc-1-wrapper .acc-icon, 
+		#acc-2:checked ~* .acc-2-wrapper .acc-icon, 
+		#acc-3:checked ~* .acc-3-wrapper .acc-icon, 
+		#acc-4:checked ~* .acc-4-wrapper .acc-icon { transform:rotate(45deg); }
+		
+		@media only screen and (max-width:380px) {
+			.pt10 { padding-top:0!important; }
+			.mobile-panel-wrapper { position:relative; }
+			.mobile-panel { position:absolute; right:-280px!important; height:100vh; background:#8e2de2; width:200px!important; z-index:1; }
+			
+			.hamburger > label { background:url(images/hamburger.png); width:35px!important; height:35px!important; background-size:contain; background-repeat:no-repeat; position:relative; z-index:2; transition:all 0.3s ease-out; }
+			#hamburger:checked ~ .hamburger > label { background-image:url(images/hotdog.png)!important; width:35px!important; height:35px!important; background-size:contain; background-repeat:no-repeat; }
+			
+			.mobile-panel th { display:inline-block!important; width:48%!important; padding:20px 0!important; }
+			.hamburger-icon { height:35px!important; width:35px!important; }
+			.social-icon-padding { padding-top:120px; }
+		}
+	</style>
+	
+	<style id="interactive-carousel">
+		.left-arrow, .right-arrow { transition:all 0.5s ease-out; background:transparent; border-radius:100px; width:40px; height:40px; }
+		.left-arrow img { position: relative; top: 10px; left: -1px; }
+		.right-arrow img { position: relative; top: 10px; right: -1px; }
+		.left-arrow:hover, .right-arrow:hover { background:rgba(142,45,226,0.15); }
+		
+		.carousel .controls { width: 100%; height: 50px; position: absolute; top: 40%; z-index:3; left:50%;
+  transform: translate(-50%, 0); display:none; }
+		.carousel .controls .left-arrow { float:left; }
+		.carousel .controls .right-arrow { float:right; }
+		
+		.carousel .inner { position:relative; z-index:0; }
+		.carousel .inner .content { position:relative; height:440px; }
+		.carousel .inner .content th { padding:0 15px; width:50%; }
+		.carousel .inner .content .slide-1, 
+		.carousel .inner .content .slide-2, 
+		.carousel .inner .content .slide-3 { position:absolute; width:100%; transition:all 0.5s ease-out; }
+		.carousel .inner .content .slide-1 { left:0; }
+		.carousel .inner .content .slide-2 { left:100%; }
+		.carousel .inner .content .slide-3 { left:100%; }
+		
+		.carousel #slide-1:checked ~ .controls-slide-1 { display:block!important; }
+		.carousel #slide-1:checked ~ .controls-slide-1 .left-arrow { opacity:0.2!important; }
+		.carousel #slide-1:checked ~ .controls-slide-1 .left-arrow:hover { background:none!important; cursor: auto!important; }
+		.carousel #slide-1:checked ~ .inner .content .slide-1 { left:0!important; }
+		.carousel #slide-1:checked ~ .inner .content .slide-2 { left:100%!important; }
+		.carousel #slide-1:checked ~ .inner .content .slide-3 { left:100%!important; }
+		
+		.carousel #slide-2:checked ~ .controls-slide-2 { display:block!important; }
+		.carousel #slide-2:checked ~ .inner .content .slide-1 { left:-100%!important; }
+		.carousel #slide-2:checked ~ .inner .content .slide-2 { left:0!important; }
+		.carousel #slide-2:checked ~ .inner .content .slide-3 { left:100%!important; }
+		
+		.carousel #slide-3:checked ~ .controls-slide-3 { display:block!important; }
+		.carousel #slide-3:checked ~ .controls-slide-3 .right-arrow { opacity:0.2!important; }
+		.carousel #slide-3:checked ~ .controls-slide-3 .right-arrow:hover { background:none!important; cursor: auto!important; }
+		.carousel #slide-3:checked ~ .inner .content .slide-1 { left:-100%!important; }
+		.carousel #slide-3:checked ~ .inner .content .slide-2 { left:-100%!important; }
+		.carousel #slide-3:checked ~ .inner .content .slide-3 { left:0!important; }
+	</style>
+	
+	<style id="media-queries">
+		@media only screen and (max-width:700px) {
+			.device-width { width:100%!important; padding:0; min-width:100%!important; }
+			.device-width-padding { width:85%!important; padding:0; min-width:85%!important; }
+			
+			.subtitle { margin:5px 0!important; }
+		}
+		
+		@media only screen and (max-width:600px) {
+			.project-text { font-size:15px!important; line-height:1.4!important; }
+			.project-text .button { font-size:15px!important; line-height:1!important; padding:15px 20px!important; }
+			.project-text .button img { width:15px!important; }
+		}
+		
+		@media only screen and (max-width:480px) {
+			.project-text { width:85%!important; }
+			.carousel .inner .content th { display:block!important; width:85%!important; padding:0 30px 20px!important; }
+			.carousel .inner .content { height:830px!important; }
+			.portfolio-block { display:block!important; width:100%!important; padding:0 0 20px 0!important; }
+			.portfolio-block img { width:100%!important; }
+			.ptb0 { padding:0!important; }
+			.plr20 { padding:30px 20px!important; }
+		}
+		
+		@media only screen and (max-width:440px) {
+			.carousel .inner .content th { padding:0 25px 20px!important; }
+			.title { font-size:40px!important; line-height:1.2!important; }
+			.text { font-size:15px!important; line-height:1.4!important; }
+		}
+		
+		@media only screen and (max-width:380px) {
+			.carousel .inner .content th { padding:0 20px 20px!important; }
+			.list-title { font-size:16px!important; line-height:1.2!important; }
+			.list-title-padding { padding-left:15px!important; }
+			.acc-wrapper { margin:60px 20px!important; }
+		}
+	</style>
+		
+	<style id="dark-mode">
+		@media (prefers-color-scheme: dark) {
+			.go-light:not([class^="x_"]) { color:#ffffff!important; }
+			.go-dark:not([class^="x_"]) { color:#1a1a1a!important; }
+			.go-dark-bg:not([class^="x_"]), #footerContainer, .ql-container { background:#1e1e1e!important; }
+			.go-dark-bg-2:not([class^="x_"]) { background:#1a1a1a!important; }
+		}
+	</style>
+	  
+	<style id="outlook-com-dark-mode">
+		[data-ogsb] .go-dark-bg { background-color:#1e1e1e!important; }
+		[data-ogsb] .go-dark-bg-2 { background-color:#1a1a1a!important; }
+	</style>
+	
+	<style id="gmail-ios-dark-mode">
+        u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
+        u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
+    </style><!---->
+	<title>Niven Ranchhod - Interactive Email Developer</title>
+</head>
+<body class="body" style="margin:0;padding:0; background-color:#8e2de2;">
+<div role="article" aria-roledescription="email" aria-label="Niven Ranchhod - Interactive Email Developer" lang="en">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+	<tr>
+		<td align="center" style="background-color:#8e2de2; background:linear-gradient(145deg, #8e2de2 0%, #4a00e0 100%);">
+			<table border="0" cellpadding="0" cellspacing="0" class="device-width" style="width:700px; overflow:hidden;" role="presentation">
+				<tr>
+					<td>
+						<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+							<tr>
+								<td style="padding:20px 30px 80px;">
+									<table align="left" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:52px;">
+										<tr>
+											<td class="logo" style="margin:0; width:52px; height:58px; background-image:url('images/logo.png'); background-size:cover; display:inline-block;">
+												<a href="../../index.html" style="color:#fff; text-decoration:underline; font-weight:400; display:block; height:58px;">
+												<!--[if mso]>
+												<img src="images/logo.png" width="52" style="display:block; width:52px; max-width:100%;" border="0" alt="View my online portfolio" />
+												<![endif]-->
+												</a>
+											</td>
+										</tr>
+									</table>
+
+									<table align="right" role="presentation" border="0" cellpadding="0" cellspacing="0" class="mobile-panel-wrapper">
+										<tr>
+											<td class="pt0" style="padding-top:15px;">
+												<!--[if !mso]><!-- -->
+												<form action="#" style="margin:0 !important">
+												<input class="tech-check" name="tech-check" type="radio" style="display:none!important" checked />
+												<!--<![endif]-->
+													<!-- HAMBURGER -->
+													<div class="tech" style="display:none; max-height:0; overflow:hidden;">
+													<!--[if !mso]><!-- -->
+
+														<input name="hamburger" type="checkbox" id="hamburger" style="display:none" />
+
+														<div class="show hamburger" style="display:none; overflow:hidden; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;">
+															<label class="show hamburger-icon" for="hamburger" style="display:none; overflow:hidden; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;"></label>
+														</div>
+														<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="mobile-panel" style="width:100%;">
+															<tr>
+																<td align="center">
+																	<div class="social-title" style="display:none; overflow:hidden; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;">
+																		<h4>My socials:</h4>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td align="center" valign="top" class="social-icon-padding">
+																	<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="device-width-padding" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:9px; line-height:17px; color:#333; font-weight:400; text-align:center; width:100%;">
+																		<tr>
+																			<th align="center">
+																				<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																					<a href="https://twitter.com/NivenRanchhod" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/twitter.png" style="display:block; width:20px;" border="0" alt="Twitter" /></a>
+																				</div>
+																			</th>
+																			<th align="center" class="social-col" style="padding:0 20px;">
+																				<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																					<a href="https://www.linkedin.com/in/nivenranchhod/" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/linkedin.png" style="display:block; width:20px;" border="0" alt="Linkedin" /></a>
+																				</div>
+																			</th>
+																			<th align="center">
+																				<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																					<a href="https://codepen.io/Digital_Frankenstein" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/codepen.png" style="display:block; width:20px;" border="0" alt="Codepen" /></a>
+																				</div>
+																			</th>
+																			<th align="center" class="social-col" style="padding:0 20px;">
+																				<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																					<a href="https://stackoverflow.com/users/2958788/digital-frankenstein" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/stack-overflow.png" style="display:block; width:20px;" border="0" alt="Stackovrflo" /></a>
+																				</div>
+																			</th>
+																			<th align="center">
+																				<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																					<a href="mailto:niven.r88@gmail.com" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/mail.png" style="display:block; width:20px;" border="0" alt="Email me" /></a>
+																				</div>
+																			</th>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+
+													<!--<![endif]-->
+													</div>
+													<!-- /HAMBURGER -->
+
+													<!-- FALLBACK -->
+													<div class="fallback" style="width:100%;">
+														<div>
+															<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="device-width-padding" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:9px; line-height:17px; color:#333; font-weight:400; text-align:center; width:100%;">
+																<tr>
+																	<td align="center">
+																		<a href="https://twitter.com/NivenRanchhod" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/twitter.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Twitter" /></a>
+																	</td>
+																	<td align="center" style="padding:0 20px;">
+																		<a href="https://www.linkedin.com/in/nivenranchhod/" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/linkedin.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Linkedin" /></a>
+																	</td>
+																	<td align="center">
+																		<a href="https://codepen.io/Digital_Frankenstein" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/codepen.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Codepen" /></a>
+																	</td>
+																	<td align="center" style="padding:0 20px;">
+																		<a href="https://stackoverflow.com/users/2958788/digital-frankenstein" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/stack-overflow.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Stackovrflo" /></a>
+																	</td>
+																	<td align="center">
+																		<a href="mailto:niven.r88@gmail.com" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/mail.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Email me" /></a>
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</div>
+													<!-- /FALLBACK -->
+												<!--[if !mso]><!-- -->
+												</form>
+												<!--<![endif]-->
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td style="padding:0 30px 40px;">
+									<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+										<tr>
+											<td style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#fff; font-weight:400; text-align:left;">
+												<div class="gmail-blend-screen">
+												<div class="gmail-blend-difference">
+												<h1 class="title" style="margin:0; font-size:48px; line-height:55px; font-weight:700;">Niven Ranchhod</h1>
+
+												<h2 class="subtitle" style="margin:0; font-size:22px; line-height:29px; font-weight:600;">Email Developer</h2>
+
+												<div style="margin:0 0 30px 0;">
+													<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#fff; font-weight:400; text-align:left; width:100%;">
+														<tr>
+															<td align="left" valign="middle" style="width:25px;">
+																<img src="images/location.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="" />
+															</td>
+															<td valign="middle">
+																<p style="margin:5px 0;">Edinburgh, UK</p>
+															</td>
+														</tr>
+													</table>
+												</div>
+
+												<p style="margin:10px 0;">Over seven years experience, specialising in HTML & CSS development for emails and websites.</p>
+
+												<p style="margin:10px 0;">Varied experience in client side and agency side teams, working at or with companies in New Zealand, Australia, UK, US & Europe, covering a wide variety of industries.</p>
+
+												<p style="margin:10px 0;">Keen learner, experimenter, helper and active member of the Emailgeeks community.</p>
+
+												<p style="margin:10px 0;">* * *<br>
+												FYI - this 'interactive resume' is also a working interactive email. Feel free to view and copy the source code and send to any email client which supports interactive elements.<br>
+												* * *</p>
+												</div>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						
+						<!--[if mso]>
+						<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+						<tr>
+						<td style="background:#fff;">
+						<![endif]-->
+						<div class="go-dark-bg" style="margin:0; background:#fff; transform: skew(0deg, -3deg); border-radius:20px;">
+							<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="transform: skew(0deg, 3deg); width:100%;">
+								<tr>
+									<td>
+										<!--[if !mso]><!-- -->
+										<form action="#" style="margin:0 !important">
+										<input class="tech-check" name="tech-check" type="radio" style="display:none!important" checked />
+										<!--<![endif]-->
+											<!-- ACCORDION -->
+											<div class="tech" style="display:none; max-height:0; overflow:hidden;">
+											<!--[if !mso]><!-- -->
+											
+												<input name="accordion" type="checkbox" id="acc-1" style="display:none" />
+												<input name="accordion" type="checkbox" id="acc-2" style="display:none" />
+												<input name="accordion" type="checkbox" id="acc-3" style="display:none" />
+												<input name="accordion" type="checkbox" id="acc-4" style="display:none" />
+												
+												<div class="acc-wrapper" style="margin:60px 30px;">
+													<div class="acc-1-wrapper" style="margin:0; box-shadow:0 2px 20px rgba(142,45,226, 0.2); border-radius:8px;">
+														<label for="acc-1">
+															<div style="margin:0;">
+																<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#8e2de2; font-weight:400; text-align:left; width:100%;">
+																	<tr>
+																		<td valign="middle" style="background:#8e2de2; font-size:25px; line-height:50px; font-weight:700; text-align:center; border-radius:8px; width:50px; color:#fff;">
+																			<p style="margin:0;">1</p>
+																		</td>
+																		<td valign="middle" class="list-title-padding" style="padding-left:20px;">
+																			<h3 class="list-title" style="margin:0; font-size:22px; line-height:29px; font-weight:600;">About me</h3>
+																		</td>
+																		<td valign="middle" style="font-size:40px; line-height:40px; font-weight:500; text-align:center; color:#8e2de2; width:60px;">
+																			<div class="acc-icon">+</div>
+																		</td>
+																	</tr>
+																</table>
+															</div>
+														</label>
+														<div class="acc-1-panel acc-panel go-dark-bg-2" style="margin:0; background:#f4f4f4; border-radius:0 0 8px 8px;">
+															<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:100%;">
+																<tr>
+																	<td class="plr20" style="padding:20px 30px;">
+																		<p style="margin:0;">Originally from New Zealand, I now live in the UK with my better half, working as the email developer for Sainsbury's Bank - running email production & testing as a one man band.</p>
+
+																		<p style="margin:15px 0;">I'm hugely passionate about email development and HTML & CSS development as a whole. I love using my down time to keep updated on the latest developments in the email and web development industries through reading articles & tutorials and then experimenting to see the viability of an idea or just to simply upskill.</p>
+
+																		<p style="margin:15px 0;">I also like helping other developers out in my own time by checking in on different forums and helping to debug their code. I love helping less experienced developers learn the fundamentals of email & web development.</p>
+
+																		<p style="margin:15px 0;">The reason I'm specifically looking at the position you have advertised is that I'm really looking for a new challenge and a chance to take the next step in my career of being a senior email & front end developer and helping junior developers get to my skill level.<br></p>
+
+																		<p style="margin:15px 0;">I have a passion for learning, teaching and talking about email development and I feel this position would be the perfect fit for my passion to flourish and you to benefit from that enthusiasm.</p> 
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</div>
+
+													<div class="acc-2-wrapper" style="margin:20px 0 0 0; box-shadow:0 2px 20px rgba(142,45,226, 0.2); border-radius:8px;">
+														<label for="acc-2">
+															<div style="margin:0;">
+																<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#8e2de2; font-weight:400; text-align:left; width:100%;">
+																	<tr>
+																		<td valign="middle" style="background:#8e2de2; font-size:25px; line-height:50px; font-weight:700; text-align:center; border-radius:8px; width:50px; color:#fff;">
+																			<p style="margin:0;">2</p>
+																		</td>
+																		<td valign="middle" class="list-title-padding" style="padding-left:20px;">
+																			<h3 class="list-title" style="margin:0; font-size:22px; line-height:29px; font-weight:600;">Work history</h3>
+																		</td>
+																		<td valign="middle" style="font-size:40px; line-height:40px; font-weight:500; text-align:center; color:#8e2de2; width:60px;">
+																			<div class="acc-icon">+</div>
+																		</td>
+																	</tr>
+																</table>
+															</div>
+														</label>
+														<div class="acc-2-panel acc-panel go-dark-bg-2" style="margin:0; background:#f4f4f4; border-radius:0 0 8px 8px;">
+															<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:100%;">
+																<tr>
+																	<td class="plr20" style="padding:20px 30px;">
+																		<h4 style="margin:0; font-weight:600;">Sainsbury's Bank</h4>
+																		<p style="margin:0;">Email Developer</p>
+																		<p style="margin:0;">Edinburgh, Scotland</p>
+																		<p style="margin:0;">Feb 2019 - Present</p>
+																		
+																		<p style="margin:15px 0;">I joined the bank to help bring email development in-house as part of a cost cutting mission. As part of the project, I was tasked with sourcing tools, testing them and deciding on a winner to then pitch to the business.<br>
+																		From there, as a one man band, I've cleaned up and rebuilt our codebase to follow the expected accessibility and modern developent practices.</p>
+																		
+																		<h4 style="margin:35px 0 0 0; font-weight:600;">Digital Six</h4>
+																		<p style="margin:0;">Front End & Email Developer</p>
+																		<p style="margin:0;">Edinburgh, Scotland</p>
+																		<p style="margin:0;">Nov 2017 - Jan 2019</p>
+																		
+																		<p style="margin:15px 0;">My day to day tasks involved the front end build of our clients Magento 2, Wordpress and Shopify ecommerce stores. Specifically working on HTML & CSS production including animation, accessibility with a mobile first approach.</p>
+																		
+																		<h4 style="margin:35px 0 0 0; font-weight:600;">ASB Bank Ltd</h4>
+																		<p style="margin:0;">Email Developer</p>
+																		<p style="margin:0;">Auckland, New Zealand</p>
+																		<p style="margin:0;">Sept 2016 - Nov 2017</p>
+																		
+																		<p style="margin:15px 0;">In a team of four, I helped build out our long daily list of mobile responsive HTML emails and custom promotional landing pages, surveys and forms. My responsibilities also included being labelled the unofficial lead developer by keeping our code base and base templates up to date with the latest email and front end techniques as well as keeping our knwoledge & skill level up to date.</p>
+																		
+																		<p style="margin:15px 0;">Acting as the lead developer also included training my team mates on new techniques I had tested out as well as being the go-to expert when an issue was found. This included running mini workshops to take my team through code techiques and test results.</p>
+																		
+																		<h4 style="margin:35px 0 0 0; font-weight:600;">Touchpoint Group Ltd</h4>
+																		<p style="margin:0;">Front End & Email Developer</p>
+																		<p style="margin:0;">Auckland, New Zealand</p>
+																		<p style="margin:0;">May 2014 - Aug 2016</p>
+																		
+																		<p style="margin:15px 0;">In a team of three, I helped build emails, landing pages and micro sites for our clients across Australasia including Samsung NZ & Aus.</p>
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</div>
+
+													<div class="acc-3-wrapper" style="margin:20px 0 0 0; box-shadow:0 2px 20px rgba(142,45,226, 0.2); border-radius:8px;">
+														<label for="acc-3">
+															<div style="margin:0;">
+																<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#8e2de2; font-weight:400; text-align:left; width:100%;">
+																	<tr>
+																		<td valign="middle" style="background:#8e2de2; font-size:25px; line-height:50px; font-weight:700; text-align:center; border-radius:8px; width:50px; color:#fff;">
+																			<p style="margin:0;">3</p>
+																		</td>
+																		<td valign="middle" class="list-title-padding" style="padding-left:20px;">
+																			<h3 class="list-title" style="margin:0; font-size:22px; line-height:29px; font-weight:600;">Portfolio</h3>
+																		</td>
+																		<td valign="middle" style="font-size:40px; line-height:40px; font-weight:500; text-align:center; color:#8e2de2; width:60px;">
+																			<div class="acc-icon">+</div>
+																		</td>
+																	</tr>
+																</table>
+															</div>
+														</label>
+														<div class="acc-3-panel acc-panel go-dark-bg-2" style="margin:0; background:#f4f4f4; border-radius:0 0 8px 8px;">
+															<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+																<tr>
+																	<td align="center" style="padding:30px 0;">
+																		<div class="carousel" style="position:relative;">
+																			<input id="slide-0" name="slide" type="radio" style="display:none!important;" disabled />
+																			<input id="slide-1" name="slide" type="radio" style="display:none!important;" checked />
+																			<input id="slide-2" name="slide" type="radio" style="display:none!important;" />
+																			<input id="slide-3" name="slide" type="radio" style="display:none!important;" />
+																			<input id="slide-4" name="slide" type="radio" style="display:none!important;" disabled />
+
+																			<div class="controls controls-slide-1">
+																				<label id="slide-0-btn" class="left-arrow" for="slide-0"><div><img src="images/left-arrow.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="" /></div></label>
+																				<label id="slide-2-btn" class="right-arrow" for="slide-2"><div><img src="images/right-arrow.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="" /></div></label>
+																			</div>
+
+																			<div class="controls controls-slide-2">
+																				<label id="slide-1-btn" class="left-arrow" for="slide-1"><div><img src="images/left-arrow.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="" /></div></label>
+																				<label id="slide-3-btn" class="right-arrow" for="slide-3"><div><img src="images/right-arrow.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="" /></div></label>
+																			</div>
+
+																			<div class="controls controls-slide-3">
+																				<label id="slide-2-btn" class="left-arrow" for="slide-2"><div><img src="images/left-arrow.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="" /></div></label>
+																				<label id="slide-4-btn" class="right-arrow" for="slide-4"><div><img src="images/right-arrow.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="" /></div></label>
+																			</div>
+
+																			<div class="inner">
+																				<div class="content">
+																					<div class="slide-1">
+																						<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="project-text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:90%;">
+																							<tr>
+																								<th valign="top">
+																									<img src="images/portfolio-tesla.png" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																									<h4 style="margin:10px 0; font-weight:600;">Tesla Interactive Range Calculator Experiment</h4>
+
+																									<p style="margin:10px 0; font-weight:400;">A personal interactive experiment built in the last few months as a way to test myself as well as showcase my skills.</p>
+
+																									<p style="margin:10px 0;">
+																										<a href="../tesla-range-calculator/tesla-range-calc---2021.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" style="display:inline-block; width:20px; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																									</p>
+																								</th>
+																								<th valign="top">
+																									<img src="images/portfolio-stint.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																									<h4 style="margin:10px 0; font-weight:600;">ST:NT</h4>
+
+																									<p style="margin:10px 0; font-weight:400;">The team at ST:NT tasked me with taking their new template design and building a modern, mobile responsive base email template framework including 12 optional modules.</p>
+
+																									<p style="margin:10px 0;">
+																										<a href="stint.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" style="display:inline-block; width:20px; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																									</p>
+																								</th>
+																							</tr>
+																						</table>
+																					</div>
+																					<div class="slide-2">
+																						<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="project-text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:90%;">
+																							<tr>
+																								<th valign="top">
+																									<img src="images/portfolio-ruark.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																									<h4 style="margin:10px 0; font-weight:600;">Ruark Audio</h4>
+
+																									<p style="margin:10px 0; font-weight:400;">RuarkAudio’s design agency approached me to translate their fresh but complicated design into a self-managed Mailchimp template that is fully mobile responsive.</p>
+
+																									<p style="margin:10px 0;">
+																										<a href="ruark-audio.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" style="display:inline-block; width:20px; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																									</p>
+																								</th>
+																								<th valign="top">
+																									<img src="images/portfolio-24sessions.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																									<h4 style="margin:10px 0; font-weight:600;">24 Sessions</h4>
+
+																									<p style="margin:10px 0; font-weight:400;">The team at 24 Sessions asked me to convert their design into a mobile responsive and accessible Hubspot template to allow them full customisation.</p>
+
+																									<p style="margin:10px 0;">
+																										<a href="24-sessions.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" style="display:inline-block; width:20px; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																									</p>
+																								</th>
+																							</tr>
+																						</table>
+																					</div>
+																					<div class="slide-3">
+																						<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="project-text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:90%;">
+																							<tr>
+																								<th valign="top">
+																									<img src="images/portfolio-robin.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																									<h4 style="margin:10px 0; font-weight:600;">Robin Care</h4>
+
+																									<p style="margin:10px 0; font-weight:400;">I was supplied the design and I was tasked with converting to mobile responsive HTML.</p>
+
+																									<p style="margin:10px 0;">
+																										<a href="robin-care.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" style="display:inline-block; width:20px; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																									</p>
+																								</th>
+																								<th valign="top">
+																									<img src="images/portfolio-qunomedical.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																									<h4 style="margin:10px 0; font-weight:600;">Qunomedical</h4>
+
+																									<p style="margin:10px 0; font-weight:400;">As the Qunomedical team were replatforming, they asked me to build out their latest design variations. The build used a basic responsive framework with dark mode support.</p>
+
+																									<p style="margin:10px 0;">
+																										<a href="qunomedical.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" style="display:inline-block; width:20px; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																									</p>
+																								</th>
+																							</tr>
+																						</table>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</div>
+
+													<div class="acc-4-wrapper" style="margin:20px 0 0 0; box-shadow:0 2px 20px rgba(142,45,226, 0.2); border-radius:8px;">
+														<label for="acc-4">
+															<div style="margin:0;">
+																<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#8e2de2; font-weight:400; text-align:left; width:100%;">
+																	<tr>
+																		<td valign="middle" style="background:#8e2de2; font-size:25px; line-height:50px; font-weight:700; text-align:center; border-radius:8px; width:50px; color:#fff;">
+																			<p style="margin:0;">4</p>
+																		</td>
+																		<td valign="middle" class="list-title-padding" style="padding-left:20px;">
+																			<h3 class="list-title" style="margin:0; font-size:22px; line-height:29px; font-weight:600;">My pitch to you</h3>
+																		</td>
+																		<td valign="middle" style="font-size:40px; line-height:40px; font-weight:500; text-align:center; color:#8e2de2; width:60px;">
+																			<div class="acc-icon">+</div>
+																		</td>
+																	</tr>
+																</table>
+															</div>
+														</label>
+														<div class="acc-4-panel acc-panel go-dark-bg-2" style="margin:0; background:#f4f4f4; border-radius:0 0 8px 8px;">
+															<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:100%;">
+																<tr>
+																	<td class="plr20" style="padding:20px 30px;">
+																		<p style="margin:0;">I live and breath email and I endeavour to build the best emails possible. That includes emails being mobile responsive (always), up to industry standards for accessibility and optimised for dark mode.</p>
+
+																		<p style="margin:15px 0;">I am an active member of the emailgeeks community on Twitter and in the Slack community. This allows me to stay on top of the latest trends, techniques and thinking around the topic of deliverability and usability.</p>
+
+																		<p style="margin:15px 0;">I am also looking for a company that will allow me to engage with the community & industry by writing posts and filming video content on things I've been testing out.</p>
+
+																		<p style="margin:15px 0;">For example, the <a href="https://nivenranchhod.medium.com/tesla-configurator-battery-range-calculator-interactive-html-email-experiment-c222145021ff" style="color:#8e2de2; text-decoration:underline;">Tesla project</a> I listed in my portfolio is a project I want to share with the community, including a write up on how I completed the project and why I did it. It is based off of the old Tesla range calculator they had on their Model S listing. <br>
+																		The functionality of the email is a showroom slideshow and then the range calculator will change the range appropriately, depending on the model, taking note of the additional animation on the wheels which speed up/down depending on the speed set on the panel. A feature I built into the tool and was my own inclusion and twist on the original tool.<br>
+																		The design, layout and code is all my work (including slicing up the updated 2021 model imagery, which was an exhaustive task) and I'm so proud of being able to take the front end JS reliant calculator, redesign it to suit the updated website and modern day design techniques and then completely code it myself (fallbacks included). <br>
+																		This is a great example of what drives me as a developer, Trying out new techniques and sharing my experiences with others.</p>
+
+																		<p style="margin:15px 0 5px 0; font-weight:600;">Blog & video series ideas:</p>
+
+																		<ul style="margin:0 0 0 15px; padding:0; font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:14px; line-height:24px; font-weight:400; color:#333; text-align:left;" align="left" type="disc">
+																			<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Email quirks/bugs & how to fix them</span> - A layman's guide for beginners on some of the 'everyday' quirks devs have been tackling for years, e.g. Outlook 20px table spacing bug and the Ghost table fix + alternative build methods.</span></li>
+																			<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Introduction to the Fluid Hybrid build method</span> - Another layman's guide to switching from the old school / tried and true table based build method to the more modern and universally mobile friendly Fluid Hybrid method.</span></li>
+																			<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Interactivity for beginners</span> - Helping beginners upskill. Interactive emails, even the basics can be daunting for beginners and even veteran developers who haven't had a need to learn interactivity.</span></li>
+																			<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Dark Mode background image alternative fixes</span> - In some of my projects, I've found an alternative fix to background image blues for flat colour transitions. Sharing the basic idea with beginners could be very handy.</span></li>
+																			<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Email basics series:</span>
+																				<ul style="margin:0 0 0 15px; padding:0; font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:14px; line-height:24px; font-weight:400; color:#333; text-align:left;" align="left" type="disc">
+																					<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Two col responsive techniques (aligned tables / th / fluid divs)</span></li>
+																					<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Outlook font fallbacks</span></li>
+																					<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Outlook max width fixes</span></li>
+																					<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Outlook retina image fixes</span></li>
+																					<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Outlook 120dpi fixes</span></li>
+																				</ul>
+																			</span></li>
+																		</ul>
+																			
+																		<p style="margin:25px 0 15px 0;">As you can see, I'm bursting with ideas and enthusiasm for this industry.</p>
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</div>
+												</div>
+											<!--<![endif]-->
+											</div>
+											<!-- /ACCORDION -->
+
+											<!-- FALLBACK -->
+											<div class="fallback" style="font-family:Arial, Helvetica, sans-serif; font-size:20px; line-height:25px; color:#ff0000; text-align:center; padding:20px 0;">
+												<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+													<tr>
+														<td class="plr20" style="padding:30px;">
+															<div class="acc-1-wrapper" style="margin:0; box-shadow:0 2px 20px rgba(142,45,226, 0.2); border-radius:8px;">
+																<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+																	<tr>
+																		<td>
+																			<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#8e2de2; font-weight:400; text-align:left; width:100%;">
+																				<tr>
+																					<td valign="middle" style="background:#8e2de2; font-size:25px; line-height:50px; mso-text-raise:12pt; font-weight:700; text-align:center; border-radius:8px; width:50px; color:#fff;">
+																						<p style="margin:0;">1</p>
+																					</td>
+																					<td valign="middle" class="list-title-padding" style="padding-left:20px;">
+																						<h3 class="list-title" style="margin:0; font-size:22px; line-height:29px; font-weight:600;">About me</h3>
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="go-dark-bg-2" style="margin:0; background:#f4f4f4; border-radius:0 0 8px 8px;">
+																			<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:100%;">
+																				<tr>
+																					<td class="plr20" style="padding:20px 30px;">
+																						<p style="margin:0;">Originally from New Zealand, I now live in the UK with my better half, working as the email developer for Sainsbury's Bank - running email production & testing as a one man band.</p>
+
+																						<p style="margin:15px 0;">I'm hugely passionate about email development and HTML & CSS development as a whole. I love using my down time to keep updated on the latest developments in the email and web development industries through reading articles & tutorials and then experimenting to see the viability of an idea or just to simply upskill.</p>
+
+																						<p style="margin:15px 0;">I also like helping other developers out in my own time by checking in on different forums and helping to debug their code. I love helping less experienced developers learn the fundamentals of email & web development.</p>
+
+																						<p style="margin:15px 0;">The reason I'm specifically looking at the position you have advertised is that I'm really looking for a new challenge and a chance to take the next step in my career of being a senior email & front end developer and helping junior developers get to my skill level.<br>
+																						I was initially employed at Sainsbury's Bank to help in-house their email development in a shift away from being heavily dependant on external agencies. I sourced build & testings tools, tested them, documented my results and then pitched my chosen tool to the HOD. From there I completely rebuilt the Bank's email codebase, bringing our emails up to industry standard for accessibility and mobile responsiveness. <br>
+																						I can now safely say the email production operation is working really well and I think it is time for a new challenge.</p>
+
+																						<p style="margin:15px 0;">I have a passion for learning, teaching and talking about email development and I feel this position would be the perfect fit for my passion to flourish and you to benefit from that enthusiasm.</p> 
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																</table>
+															</div>
+															<!--[if mso]><br><![endif]-->
+															<div class="acc-2-wrapper" style="margin:20px 0 0 0; box-shadow:0 2px 20px rgba(142,45,226, 0.2); border-radius:8px;">
+																<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+																	<tr>
+																		<td>
+																			<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#8e2de2; font-weight:400; text-align:left; width:100%;">
+																				<tr>
+																					<td valign="middle" style="background:#8e2de2; font-size:25px; line-height:50px; mso-text-raise:12pt; font-weight:700; text-align:center; border-radius:8px; width:50px; color:#fff;">
+																						<p style="margin:0;">2</p>
+																					</td>
+																					<td valign="middle" class="list-title-padding" style="padding-left:20px;">
+																						<h3 class="list-title" style="margin:0; font-size:22px; line-height:29px; font-weight:600;">Work history</h3>
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="go-dark-bg-2" style="margin:0; background:#f4f4f4; border-radius:0 0 8px 8px;">
+																			<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="text" go-light style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:100%;">
+																				<tr>
+																					<td class="plr20" style="padding:20px 30px;">
+																						<h4 style="margin:0; font-weight:600;">Sainsbury's Bank</h4>
+																						<p style="margin:0;">Email Developer</p>
+																						<p style="margin:0;">Edinburgh, Scotland</p>
+																						<p style="margin:0;">Feb 2019 - Present</p>
+
+																						<p style="margin:15px 0;">I joined the bank to help bring email development in-house as part of a cost cutting mission. As part of the project, I was tasked with sourcing tools, testing them and deciding on a winner to then pitch to the business.<br>
+																						From there, as a one man band, I've cleaned up and rebuilt our codebase to follow the expected accessibility and modern developent practices.</p>
+
+																						<h4 style="margin:35px 0 0 0; font-weight:600;">Digital Six</h4>
+																						<p style="margin:0;">Front End & Email Developer</p>
+																						<p style="margin:0;">Edinburgh, Scotland</p>
+																						<p style="margin:0;">Nov 2017 - Jan 2019</p>
+
+																						<p style="margin:15px 0;">My day to day tasks involved the front end build of our clients Magento 2, Wordpress and Shopify ecommerce stores. Specifically working on HTML & CSS production including animation, accessibility with a mobile first approach.</p>
+
+																						<h4 style="margin:35px 0 0 0; font-weight:600;">ASB Bank Ltd</h4>
+																						<p style="margin:0;">Email Developer</p>
+																						<p style="margin:0;">Auckland, New Zealand</p>
+																						<p style="margin:0;">Sept 2016 - Nov 2017</p>
+
+																						<p style="margin:15px 0;">In a team of four, I helped build out our long daily list of mobile responsive HTML emails and custom promotional landing pages, surveys and forms. My responsibilities also included being labelled the unofficial lead developer by keeping our code base and base templates up to date with the latest email and front end techniques as well as keeping our knwoledge & skill level up to date.</p>
+
+																						<p style="margin:15px 0;">Acting as the lead developer also included training my team mates on new techniques I had tested out as well as being the go-to expert when an issue was found. This included running mini workshops to take my team through code techiques and test results.</p>
+
+																						<h4 style="margin:35px 0 0 0; font-weight:600;">Touchpoint Group Ltd</h4>
+																						<p style="margin:0;">Front End & Email Developer</p>
+																						<p style="margin:0;">Auckland, New Zealand</p>
+																						<p style="margin:0;">May 2014 - Aug 2016</p>
+
+																						<p style="margin:15px 0;">In a team of three, I helped build emails, landing pages and micro sites for our clients across Australasia including Samsung NZ & Aus.</p>
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																</table>
+															</div>
+															<!--[if mso]><br><![endif]-->
+															<div class="acc-3-wrapper" style="margin:20px 0 0 0; box-shadow:0 2px 20px rgba(142,45,226, 0.2); border-radius:8px;">
+																<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+																	<tr>
+																		<td>
+																			<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#8e2de2; font-weight:400; text-align:left; width:100%;">
+																				<tr>
+																					<td valign="middle" style="background:#8e2de2; font-size:25px; line-height:50px; mso-text-raise:12pt; font-weight:700; text-align:center; border-radius:8px; width:50px; color:#fff;">
+																						<p style="margin:0;">3</p>
+																					</td>
+																					<td valign="middle" class="list-title-padding" style="padding-left:20px;">
+																						<h3 class="list-title" style="margin:0; font-size:22px; line-height:29px; font-weight:600;">Portfolio</h3>
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="go-dark-bg-2" style="margin:0; background:#f4f4f4; border-radius:0 0 8px 8px;">
+																			<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+																				<tr>
+																					<td align="center" style="padding:30px 0;">
+																						<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+																							<tr>
+																								<td>
+																									<table align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" class="project-text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:90%;">
+																										<tr>
+																											<th class="portfolio-block" valign="top" style="width:50%; padding:0 15px;">
+																												<img src="images/portfolio-tesla.png" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																												<h4 style="margin:10px 0; font-weight:600;">Tesla Interactive Range Calculator Experiment</h4>
+
+																												<p style="margin:10px 0; font-weight:400;">A personal interactive experiment built in the last few months as a way to test myself as well as showcase my skills.</p>
+
+																												<p style="margin:10px 0;">
+																													<a href="../tesla-range-calculator/tesla-range-calc---2021.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" width="20" style="display:inline-block; width:20px; max-width:100%; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																												</p>
+																											</th>
+																											<th class="portfolio-block" valign="top" style="width:50%; padding:0 15px;">
+																												<img src="images/portfolio-stint.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																												<h4 style="margin:10px 0; font-weight:600;">ST:NT</h4>
+
+																												<p style="margin:10px 0; font-weight:400;">The team at ST:NT tasked me with taking their new template design and building a modern, mobile responsive base email template framework including 12 optional modules.</p>
+
+																												<p style="margin:10px 0;">
+																													<a href="stint.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" width="20" style="display:inline-block; width:20px; max-width:100%; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																												</p>
+																											</th>
+																										</tr>
+																									</table>
+																								</td>
+																							</tr>
+																							<tr>
+																								<td align="center" class="ptb0" style="padding:30px 0;">
+																									<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="project-text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:90%;">
+																										<tr>
+																											<th class="portfolio-block" valign="top" style="width:50%; padding:0 15px;">
+																												<img src="images/portfolio-ruark.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																												<h4 style="margin:10px 0; font-weight:600;">Ruark Audio</h4>
+
+																												<p style="margin:10px 0; font-weight:400;">RuarkAudio’s design agency approached me to translate their fresh but complicated design into a self-managed Mailchimp template that is fully mobile responsive.</p>
+
+																												<p style="margin:10px 0;">
+																													<a href="ruark-audio.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" width="20" style="display:inline-block; width:20px; max-width:100%; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																												</p>
+																											</th>
+																											<th class="portfolio-block" valign="top" style="width:50%; padding:0 15px;">
+																												<img src="images/portfolio-24sessions.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																												<h4 style="margin:10px 0; font-weight:600;">24 Sessions</h4>
+
+																												<p style="margin:10px 0; font-weight:400;">The team at 24 Sessions asked me to convert their design into a mobile responsive and accessible Hubspot template to allow them full customisation.</p>
+
+																												<p style="margin:10px 0;">
+																													<a href="24-sessions.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" width="20" style="display:inline-block; width:20px; max-width:100%; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																												</p>
+																											</th>
+																										</tr>
+																									</table>
+																								</td>
+																							</tr>
+																							<tr>
+																								<td align="center">
+																									<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="project-text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:90%;">
+																										<tr>
+																											<th class="portfolio-block" valign="top" style="width:50%; padding:0 15px;">
+																												<img src="images/portfolio-robin.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																												<h4 style="margin:10px 0; font-weight:600;">Robin Care</h4>
+
+																												<p style="margin:10px 0; font-weight:400;">I was supplied the design and I was tasked with converting to mobile responsive HTML.</p>
+
+																												<p style="margin:10px 0;">
+																													<a href="robin-care.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" width="20" style="display:inline-block; width:20px; max-width:100%; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																												</p>
+																											</th>
+																											<th class="portfolio-block" valign="top" style="width:50%; padding:0 15px;">
+																												<img src="images/portfolio-qunomedical.jpg" alt="" width="300" style="width:300px; max-width:100%; display:block;" />
+
+																												<h4 style="margin:10px 0; font-weight:600;">Qunomedical</h4>
+
+																												<p style="margin:10px 0; font-weight:400;">As the Qunomedical team were replatforming, they asked me to build out their latest design variations. The build used a basic responsive framework with dark mode support.</p>
+
+																												<p style="margin:10px 0;">
+																													<a href="qunomedical.html" class="button" style="background:#8e2de2; text-decoration:none; padding:15px 25px; color:#fff; display:inline-block; mso-padding-alt:0;text-underline-color:#fff; font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px; border-radius:100px;"><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;"><img src="images/view.png" width="20" style="display:inline-block; width:20px; max-width:100%; vertical-align: middle;" border="0" alt="" /> &nbsp;View Project</span><!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a>
+																												</p>
+																											</th>
+																										</tr>
+																									</table>
+																								</td>
+																							</tr>
+																						</table>
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																</table>
+															</div>
+															<!--[if mso]><br><![endif]-->
+															<div class="acc-4-wrapper" style="margin:20px 0 0 0; box-shadow:0 2px 20px rgba(142,45,226, 0.2); border-radius:8px;">
+																<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+																	<tr>
+																		<td>
+																			<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#8e2de2; font-weight:400; text-align:left; width:100%;">
+																				<tr>
+																					<td valign="middle" style="background:#8e2de2; font-size:25px; line-height:50px; font-weight:700; text-align:center; border-radius:8px; width:50px; color:#fff;">
+																						<p style="margin:0;">4</p>
+																					</td>
+																					<td valign="middle" class="list-title-padding" style="padding-left:20px;">
+																						<h3 class="list-title" style="margin:0; font-size:22px; line-height:29px; font-weight:600;">My pitch to you</h3>
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="go-dark-bg-2" style="margin:0; background:#f4f4f4; border-radius:0 0 8px 8px;">
+																			<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="text go-light" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; color:#333; font-weight:400; text-align:left; width:100%;">
+																				<tr>
+																					<td class="plr20" style="padding:20px 30px;">
+																						<p style="margin:0;">I live and breath email and I endeavour to build the best emails possible. That includes emails being mobile responsive (always), up to industry standards for accessibility and optimised for dark mode.</p>
+
+																						<p style="margin:15px 0;">I am an active member of the emailgeeks community on Twitter and in the Slack community. This allows me to stay on top of the latest trends, techniques and thinking around the topic of deliverability and usability.</p>
+
+																						<p style="margin:15px 0;">I am also looking for a company that will allow me to engage with the community & industry by writing posts and filming video content on things I've been testing out.</p>
+
+																						<p style="margin:15px 0;">For example, the <a href="https://nivenranchhod.medium.com/tesla-configurator-battery-range-calculator-interactive-html-email-experiment-c222145021ff" style="color:#8e2de2; text-decoration:underline;">Tesla project</a> I listed in my portfolio is a project I want to share with the community, including a write up on how I completed the project and why I did it. It is based off of the old Tesla range calculator they had on their Model S listing. <br>
+																						The functionality of the email is a showroom slideshow and then the range calculator will change the range appropriately, depending on the model, taking note of the additional animation on the wheels which speed up/down depending on the speed set on the panel. A feature I built into the tool and was my own inclusion and twist on the original tool.<br>
+																						The design, layout and code is all my work (including slicing up the updated 2021 model imagery, which was an exhaustive task) and I'm so proud of being able to take the front end JS reliant calculator, redesign it to suit the updated website and modern day design techniques and then completely code it myself (fallbacks included). <br>
+																						This is a great example of what drives me as a developer, Trying out new techniques and sharing my experiences with others.</p>
+
+																						<p style="margin:15px 0 5px 0; font-weight:600;">Blog & video series ideas:</p>
+
+																						<ul style="margin:0 0 0 15px; padding:0; font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:14px; line-height:24px; font-weight:400; color:#333; text-align:left;" align="left" type="disc">
+																							<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Email quirks/bugs & how to fix them</span> - A layman's guide for beginners on some of the 'everyday' quirks devs have been tackling for years, e.g. Outlook 20px table spacing bug and the Ghost table fix + alternative build methods.</span></li>
+																							<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Introduction to the Fluid Hybrid build method</span> - Another layman's guide to switching from the old school / tried and true table based build method to the more modern and universally mobile friendly Fluid Hybrid method.</span></li>
+																							<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Interactivity for beginners</span> - Helping beginners upskill. Interactive emails, even the basics can be daunting for beginners and even veteran developers who haven't had a need to learn interactivity.</span></li>
+																							<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Dark Mode background image alternative fixes</span> - In some of my projects, I've found an alternative fix to background image blues for flat colour transitions. Sharing the basic idea with beginners could be very handy.</span></li>
+																							<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;"><span class="go-light" style="color:#333; font-weight:500;">Email basics series:</span>
+																								<ul style="margin:0 0 0 15px; padding:0; font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:14px; line-height:24px; font-weight:400; color:#333; text-align:left;" align="left" type="disc">
+																									<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Two col responsive techniques (aligned tables / th / fluid divs)</span></li>
+																									<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Outlook font fallbacks</span></li>
+																									<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Outlook max width fixes</span></li>
+																									<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Outlook retina image fixes</span></li>
+																									<li style="margin: 0 0 10px 18px; color:#8e2de2; font-size:16px; line-height:24px;"><span class="go-light" style="color:#333;">Outlook 120dpi fixes</span></li>
+																								</ul>
+																							</span></li>
+																						</ul>
+
+																						<p style="margin:25px 0 15px 0;">As you can see, I'm bursting with ideas and enthusiasm for this industry.</p>
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																</table>
+															</div>
+														</td>
+													</tr>
+												</table>
+											</div>
+											<!-- /FALLBACK -->
+										<!--[if !mso]><!-- -->
+										</form>
+										<!--<![endif]-->
+									</td>
+								</tr>
+							</table>
+						</div>
+						<!--[if mso]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+						
+						<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+							<tr>
+								<td style="padding:40px 30px;">
+									<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+										<tr>
+											<td style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:18px; line-height:26px; color:#fff; font-weight:400; text-align:left;">
+												<div class="gmail-blend-screen">
+												<div class="gmail-blend-difference">
+												<p style="margin:10px 0;">I would love to chat to more to take you through my experience to date, my future goals and how I think I would be a great inclusion to the your team.</p>
+
+												<p style="margin:10px 0 20px 0;">I'm active on Twitter, you can see more of my experience on Linkedin, I share code experiements on Codepen and I help others on StackOverflow:</p>
+												</div>
+												</div>
+
+												<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="font-family:'Poppins', Helvetica, Arial, sans-serif; font-size:9px; line-height:17px; color:#333; font-weight:400; text-align:center;">
+													<tr>
+														<th align="center">
+															<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																<a href="https://twitter.com/NivenRanchhod" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/twitter.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Twitter" /></a>
+															</div>
+														</th>
+														<th align="center" class="social-col" style="padding:0 20px;">
+															<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																<a href="https://www.linkedin.com/in/nivenranchhod/" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/linkedin.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Linkedin" /></a>
+															</div>
+														</th>
+														<th align="center">
+															<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																<a href="https://codepen.io/Digital_Frankenstein" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/codepen.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Codepen" /></a>
+															</div>
+														</th>
+														<th align="center" class="social-col" style="padding:0 20px;">
+															<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																<a href="https://stackoverflow.com/users/2958788/digital-frankenstein" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/stack-overflow.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Stackovrflo" /></a>
+															</div>
+														</th>
+														<th align="center">
+															<div class="social" style="border-radius:100px; width:20px; border:5px solid transparent;">
+																<a href="mailto:niven.r88@gmail.com" style="color:#fff; text-decoration:underline; font-weight:400;"><img src="images/mail.png" width="20" style="display:block; width:20px; max-width:100%;" border="0" alt="Email me" /></a>
+															</div>
+														</th>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+</body>
+</html>
